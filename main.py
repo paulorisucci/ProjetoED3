@@ -12,6 +12,7 @@ qtde_valores = 20000
 
 for i in range(qtde_valores):
     lista.append(randint(1, 5000))
+    
 bubbleSortedList = lista.copy()
 insertionSortedList = lista.copy()
 shellSortedList = lista.copy()
