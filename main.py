@@ -20,9 +20,9 @@ mergeSortedList = lista.copy()
 quickSortedList = lista.copy()
 
 
-print(f"Bubble Sort: {delayBubbleSort(bubbleSortedList)['time']}")
-print(f"Insertion Sort: {delayInsertionSort(insertionSortedList)['time']}")
-print(f"Shell Sort: {delayShellSort(shellSortedList)['time']}")
-print(f"Merge Sort: {delayMergeSort(mergeSortedList)['time']}")
-print(f"Quick Sort: {delayQuickSort(quickSortedList)['time']}")
+print(f"Bubble Sort: {delayBubbleSort(bubbleSortedList)['time']}s")
+print(f"Insertion Sort: {delayInsertionSort(insertionSortedList)['time']}s")
+print(f"Shell Sort: {delayShellSort(shellSortedList)['time']}s")
+print(f"Merge Sort: {delayMergeSort(mergeSortedList)['time']}s")
+print(f"Quick Sort: {delayQuickSort(quickSortedList)['time']}s")
 
